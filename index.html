@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>30 Coils</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="hero-card">
+          <p class="eyebrow">30 COILS</p>
+          <h1>Coil development engine</h1>
+          <p class="hero-copy">Parametric specimen sweep around a single reference design.</p>
+        </div>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Bounds</h2>
+            <span class="count-pill">6</span>
+          </div>
+          <div id="slider-list" class="slider-list"></div>
+        </section>
+      </aside>
+
+      <main class="viewport-wrap">
+        <div class="viewport-header">
+          <div>
+            <p class="eyebrow">Geometry data</p>
+            <h2>30 specimen preview</h2>
+          </div>
+        </div>
+        <div class="viewport-card">
+          <div id="specimen-matrix" class="specimen-matrix" aria-label="Coil specimen preview"></div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
