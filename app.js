@@ -6,8 +6,8 @@ const matrixHost = document.getElementById("specimen-matrix");
 const controls = [
   { key: "diameter", label: "Diameter", mode: "ratio", range: 0.56, bounds: [0.05, 0.95] },
   { key: "turns", label: "Length (turns)", mode: "ratio", range: 0.35, bounds: [0.05, 0.95] },
-  { key: "thickness", label: "Wire thickness", mode: "ratio", range: 0.62, bounds: [0.05, 0.95] },
   { key: "pitch", label: "Pitch", mode: "ratio", range: 0.35, bounds: [0.05, 0.95] },
+  { key: "thickness", label: "Wire thickness", mode: "ratio", range: 0.62, bounds: [0.05, 0.95] },
   { key: "taper", label: "Taper over length", mode: "signed", range: 0.3, bounds: [0, 1.1] },
   { key: "curvature", label: "Axial curvature", mode: "signed", range: 0.3, bounds: [0, 0.85] }
 ];
