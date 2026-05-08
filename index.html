@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>30 Coils</title>
+    <title>Parametric coil design studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,25 +16,85 @@
     <div class="app-shell">
       <aside class="sidebar">
         <div class="hero-card">
-          <p class="eyebrow">30 COILS</p>
-          <h1>Coil development engine</h1>
-          <p class="hero-copy">Parametric specimen sweep around a single reference design.</p>
+          <h1>Lossless parametric assessment manager</h1>
+          <p class="hero-copy">Lossless data-based workflow for design, production, simulation, experimental testing, data processing, and reproduction logs.</p>
         </div>
 
         <section class="panel">
           <div class="panel-heading">
-            <h2>Bounds</h2>
-            <span class="count-pill">6</span>
+            <div class="stage-group__label stage-group__label-main">Parametric sweep controls</div>
           </div>
+          <button class="stage-card stage-card-active" type="button">
+            <span class="stage-card__step">1</span>
+            <span class="stage-card__body">
+              <span class="stage-card__title">Configure sweep parameters</span>
+            </span>
+          </button>
           <div id="slider-list" class="slider-list"></div>
+          <div class="stage-stack" aria-label="Design and testing workflow actions">
+            <section class="stage-group" aria-label="Design inputs">
+              <div class="stage-group__label">Design inputs</div>
+              <button class="stage-card" type="button">
+                <span class="stage-card__step">2</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Advanced design details</span>
+                </span>
+              </button>
+            </section>
+
+            <section class="stage-group" aria-label="Generated outputs">
+              <div class="stage-group__label">Generated outputs</div>
+              <button class="stage-card" type="button">
+                <span class="stage-card__step">3</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Feedstock production procedure</span>
+                </span>
+              </button>
+              <button class="stage-card" type="button">
+                <span class="stage-card__step">4</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Precision assembly procedure</span>
+                </span>
+              </button>
+              <button class="stage-card" type="button">
+                <span class="stage-card__step">5</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Simulation config</span>
+                </span>
+              </button>
+              <button class="stage-card" type="button">
+                <span class="stage-card__step">6</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Testing config</span>
+                </span>
+              </button>
+              <button class="stage-card" type="button">
+                <span class="stage-card__step">7</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Export testing procedure</span>
+                </span>
+              </button>
+              <button class="stage-card" type="button">
+                <span class="stage-card__step">8</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Export AI training metadata</span>
+                </span>
+              </button>
+              <button class="stage-card stage-card-accent" type="button">
+                <span class="stage-card__step">9</span>
+                <span class="stage-card__body">
+                  <span class="stage-card__title">Generate logs</span>
+                </span>
+              </button>
+            </section>
+          </div>
         </section>
       </aside>
 
       <main class="viewport-wrap">
         <div class="viewport-header">
           <div>
-            <p class="eyebrow">Geometry data</p>
-            <h2>30 specimen preview</h2>
+            <h2>Specimen matrix</h2>
           </div>
         </div>
         <div class="viewport-card">
